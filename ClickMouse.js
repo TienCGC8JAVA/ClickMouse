@@ -1,14 +1,12 @@
-let myImg = document.getElementById("funny");
-
 function moveRightImg()
 {
-    myImg.style.left = parseInt(myImg.style.left) + 10 +'px';
+    document.getElementById("funny").style.left = parseInt(document.getElementById("funny").style.left) + 10 +'px';
 }
 
 function click()
 {
-    myImg.style.position = "relative";
-    myImg.style.left = "0px";
+    document.getElementById("funny").style.position = "relative";
+    document.getElementById("funny").style.left = "0px";
 }
 
 window.onload = click;
