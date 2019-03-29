@@ -1,4 +1,4 @@
-var myImg = document.getElementById("funny");
+let myImg = document.getElementById("funny");
 
 function moveRightImg()
 {
