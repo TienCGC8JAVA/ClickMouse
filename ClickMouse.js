@@ -7,7 +7,6 @@ function moveRightImg()
 
 function click()
 {
-    myImg = document.getElementById("funny");
     myImg.style.position = "relative";
     myImg.style.left = "0px";
 }
